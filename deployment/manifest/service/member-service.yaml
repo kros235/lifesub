@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: member-service
+  namespace: kros235-lifesub-ns
+  labels:
+    app: member
+spec:
+  ports:
+  - port: 80
+    targetPort: 8081
+    protocol: TCP
+    name: http
+  selector:
+    app: member
