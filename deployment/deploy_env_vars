@@ -1,0 +1,24 @@
+# Team Settings
+teamid=kros235
+root_project=lifesub
+namespace=kros235-lifesub-ns
+
+# Container Registry Settings
+registry=acrdigitalgarage02.azurecr.io
+image_org=kros235
+
+# Application Settings
+replicas=1
+allowed_origins=http://20.249.164.57
+ingress_host=kros235.20.249.184.228.nip.io
+
+# Security Settings
+jwt_secret_key=ZpauErq9KFue+ubp7fCaU+ZXSMh7rRXC5LUmJmzRmcfq9mNs0++XNckPc84cHynd+MLKJknab7JSJ2Ttfh20J0A==
+postgres_user=kros235
+postgres_password=Hi5Jessica!
+
+# Resource Settings
+resources_requests_cpu=256m
+resources_requests_memory=256Mi
+resources_limits_cpu=1024m
+resources_limits_memory=1024Mi
